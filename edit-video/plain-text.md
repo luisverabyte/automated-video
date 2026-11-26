@@ -1,7 +1,7 @@
 <!--
 How to use it in any AI (ChatGPT, Gemini, Copilot, Claude without skills…):
-- Quick: copy everything below the line and paste it as the first message of the chat. Paste or attach your design-system.md too.
-- So it always remembers: in ChatGPT create a Project or a GPT; in Gemini, a Gem; in Claude, a Project. Paste this text into the instructions and upload your design-system.md as a file.
+- Best, once: save your design-system.md where your AI remembers it (in Claude or ChatGPT, upload it to a Project and open your chats there; in Gemini, turn it into a skill). Upload this text to the Project too, or in Gemini save it as another skill. That way you repeat nothing for each video.
+- Quick, to try it: copy everything below the line, paste it as the first message of the chat and attach your design-system.md.
 -->
 
 ----------------------------------------------------------------

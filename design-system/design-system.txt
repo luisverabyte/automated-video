@@ -91,11 +91,11 @@ The safe zone (where the TikTok, Reels and Shorts buttons don't cover anything) 
    - **Gemini:** open it in Canvas.
    - **Another AI:** use its canvas or document view if it has one; if not, the code block from step 3 is enough.
    The native format is for viewing and editing; if something changes there, update `design-system.md` too.
-5. **Tell them where to keep it**, depending on where they work:
-   - **Claude:** upload it to a Project's knowledge, or leave it in the project folder if they use Claude Code or Cowork. The script and editing skills look for it there.
-   - **ChatGPT:** upload it as a file to a Project or a custom GPT.
-   - **Gemini:** upload it as a knowledge file in a Gem.
-   - **Any other AI:** paste it at the start of the chat before asking for a script or an edit.
+5. **Tell them how to save it once so their AI always remembers it** (no pasting it into every script or edit), depending on where they work:
+   - **Claude:** create a Project and upload `design-system.md` to its knowledge; do every script and every edit in a chat inside that Project. In Claude Code or Cowork, just leave it in the project folder. The script and editing skills look for it there.
+   - **ChatGPT:** create a Project and upload `design-system.md` as a Project file (plus the plain text of steps 2 and 3 if they use them without installing). Every chat opened inside the Project uses it.
+   - **Gemini:** turn it into a skill: ask in the chat "Create a skill called my-design-system with this file", or create it from Skills on Gemini's web app. Then call it with / in any chat. (Gems are being replaced by skills.)
+   - **Any other AI:** if it has projects, spaces or memory, save it there; if not, paste it at the start of the chat before asking for a script or an edit.
 6. Close with one line: the next step is the video-script skill.
 
 ## Output template

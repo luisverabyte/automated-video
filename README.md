@@ -98,10 +98,10 @@ Copy the `DESIGN-SYSTEM-FORMAT.md` file into `~/.claude/skills/design-system/`. 
 
 1. Open the skill's **plain-text** version (links above) and copy all of it.
 2. Paste it into a new chat and send it. The AI learns the skill for that conversation.
-3. When you finish step 1, save your `design-system.md` so you don't have to repeat the interview:
-   - **ChatGPT:** upload it as a file to a Project or a custom GPT, along with the skill's plain text.
-   - **Gemini:** create a Gem for it and upload it as knowledge.
-   - **Others:** paste it at the start of every new chat, before the skill's text.
+3. When you finish step 1, save your `design-system.md` once so your AI remembers it for every script and every edit:
+   - **ChatGPT:** create a Project, upload `design-system.md` and the steps' plain text as files, and open your chats inside the Project.
+   - **Gemini:** turn it into a skill ("Create a skill called my-design-system with this file", or from Skills on the web) and call it with / in any chat. Gems are being replaced by skills.
+   - **Others:** save it in their projects or memory if they have them; if not, paste it at the start of every new chat, before the skill's text.
 
 Steps 1 and 2 work fully in any AI. Step 3 needs to run programs on your computer: there it walks you through the commands for your terminal. For it to edit on its own, use Claude Code or Cowork.
 
